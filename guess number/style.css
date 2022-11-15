@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "iransans";
+    src: url('font/IRANSansX-Bold.ttf');
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFB9B9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: iransans;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 400px;
+    height: 300px;
+    background-color: #FFDDD2;
+    text-align: center;
+    border-radius: 1rem;
+    
+}
+.choice_number{
+    margin-top: 5rem;
+}
+.text{
+    font-weight: bold;
+    font-size: 1.5rem;  
+}
+.get_number{
+    display: flex;
+    
+}
+.input_number{
+    display: block;
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;
+}
+.check{
+    width: 100px;
+    margin: auto;
+    padding: 0.6rem;
+    background-color: #FF8DC7;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.check:hover{
+    background-color: #fff;
+}
+.title_section{
+    position: relative;
+    text-align: center;
+}
+.title{
+    font-size: 3rem;
+    background-color: #FF8DC7;
+    width: 16rem;
+    position: absolute;
+    bottom: 5rem;
+    right: 4rem;
+    border-radius: 0.5rem;
+}
+.info_player{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 3rem; */
+    
+}
+.restart{
+    padding: 0.8rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #FF8DC7;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0.8rem;
+    border-radius: 0.2rem;
+}
+.restart:hover{
+    background-color: #fff;
+}
